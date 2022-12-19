@@ -1,0 +1,11 @@
+.contenedor {
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+
+.boton {
+  display: block;
+  background-color: blue;
+  margin: 0 auto;
+}
