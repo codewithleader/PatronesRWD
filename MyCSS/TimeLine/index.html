@@ -6,31 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TimeLine</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div style="position: relative">
-      <div
-        class="timeline_bola color_estrellas"
-        style="
-          background: rgb(7, 115, 232);
-          --darkreader-inline-bgimage: initial;
-          --darkreader-inline-bgcolor: #065cba;
-        "
-        data-darkreader-inline-bgimage=""
-        data-darkreader-inline-bgcolor=""
-      >
-        <div class="timeline_bola_border"></div>
+    <div class="timeline">
+      <!-- First TIME-LINE -->
+      <!-- Left Component -->
+      <div class="timeline__component">
+        <div class="timeline__date timeline__date--right">January 6, 0</div>
       </div>
-      <p
-        class="titulo2 color nowrap"
-        contenteditable="true"
-        placeholder="Degree"
-        style="color: rgb(7, 115, 232); --darkreader-inline-color: #42a6f9"
-        data-darkreader-inline-color=""
-      >
-        lkasd
-      </p>
+
+      <!-- Middle Line -->
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+      </div>
+
+      <!-- Right Component -->
+      <div class="timeline__component timeline__component--bg">
+        <h2 class="timeline__title">Adán y Eva (Gn 1)</h2>
+        <p class="timeline__paragraph">
+          26 Entonces Elohim dijo: 'Hagamos a la humanidad a nuestra imagen, conforme a nuestra
+          semejanza; y reinen sobre los peces en el mar, las criaturas que vuelan en el cielo, los
+          animales, y sobre toda la tierra, y sobre toda criatura que se arrastra en la tierra.'
+        </p>
+        <p class="timeline__paragraph">
+          27 Así que Elohim creó al hombre; a la imagen de Elohim lo creó; macho y hembra El los
+          creó.
+        </p>
+        <p class="timeline__paragraph">
+          28 Elohim los bendijo, diciendo: 'Sean fructíferos, multiplíquense, llenen la tierra y
+          sométanla. Tengan dominio sobre los peces en los mares y las criaturas que vuelan en el
+          cielo, y todo ganado y toda la tierra, y toda criatura viviente que se arrastra en la
+          tierra.'
+        </p>
+        <p class="timeline__paragraph">
+          29 Entonces Elohim dijo: '¡Miren! Por toda la tierra Yo les doy como comida toda planta
+          que lleve zera y todo árbol con fruto que lleve zera.
+        </p>
+        <p class="timeline__paragraph">
+          30 Y a todo animal salvaje de la tierra, y a las criaturas que vuelan en el cielo y a toda
+          criatura que se arrastra en la tierra, en la cual hay el aliento de vida, les estoy dando
+          como comida toda clase de planta verde.' Y así es como fue.
+        </p>
+        <p class="timeline__paragraph">
+          31 Elohim vio que todo lo que El había hecho ciertamente era muy bueno. Así que fue la
+          noche, y fue la mañana, <strong>un sexto día</strong>.
+        </p>
+      </div>
+      <!-- End right component -->
+
+      <!-- Second TIME-LINE -->
+
+      <!-- Left Component -->
+      <div class="timeline__component timeline__component--bottom timeline__component--bg">
+        <h2 class="timeline__title">Caín y Abel (Gen 4)</h2>
+        <p class="timeline__paragraph">
+          1 El hombre tuvo relaciones sexuales con Eva su esposa; Ella concibió, dio a luz a Caín
+          [adquisición], y dijo: 'He adquirido un hombre de parte de Dios.'
+        </p>
+        <p class="timeline__paragraph">
+          2 Además, ella dio a luz a su hermano Abel [aliento]. Abel pastoreaba ovejas, mientras que
+          Caín trabajaba la tierra.
+        </p>
+      </div>
+      <!-- End left component -->
+
+      <!-- Middle Line -->
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+        <div class="timeline__point  timeline__point--bottom"></div>
+      </div>
+
+      <!-- Right Component -->
+      <div class="timeline__component timeline__component--bottom">
+        <div class="timeline__date">October 1, 0</div>
+      </div>
     </div>
   </body>
 </html>
